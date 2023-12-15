@@ -1,3 +1,15 @@
+books = [
+    {"id": 1, "title": "The Great Gatsby", "author": "F. Scott Fitzgerald"},
+    {"id": 2, "title": "To Kill a Mockingbird", "author": "Harper Lee"},
+    {"id": 3, "title": "1984", "author": "George Orwell"},
+]
+
+store_locations = [
+    {"id": 1, "name": "Downtown Bookstore", "location": "123 Main St"},
+    {"id": 2, "name": "City Books", "location": "456 Oak St"},
+]
+
+wishlist = []
 def show_menu():
     print("Menu:")
     print("1. View Books")
